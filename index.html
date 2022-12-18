@@ -14,16 +14,16 @@
     />
   </head>
   <body>
-    <header>
+    <header class="link">
       <nav>
-        <a href="#"><span class="accent">Web</span>Studio</a>
-        <ul>
+        <a class="logo logo-top" href="#"><span class="logo-accent">Web</span>Studio</a>
+        <ul class="menu navigation-link">
           <li><a href="#">Agencja</a></li>
           <li><a href="./portfolio.html">Portfolio</a></li>
           <li><a href="#">Kontakt</a></li>
         </ul>
       </nav>
-      <ul>
+      <ul class="menu contact-link">
         <li>
           <a href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
@@ -34,13 +34,13 @@
     </header>
     <main>
       <!--First section - Efektywne Rozwiązania-->
-      <section>
-        <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-        <button type="button">Zamów usługę</button>
+      <section class="first-section">
+        <h1 class="main-title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+        <button class="link order-service" type="button">Zamów usługę</button>
       </section>
       <!--Second section - LOREM IPSUM-->
       <section>
-        <ul>
+        <ul class="strengths">
           <li>
             <h3>lorem ipsum</h3>
             <p>
@@ -73,7 +73,7 @@
       </section>
       <!--Third section - What do we work with-->
       <section>
-        <h2>Czym się zajmujemy</h2>
+        <h2 class="sub-title">Czym się zajmujemy</h2>
         <ul>
           <li>
             <img
@@ -102,9 +102,9 @@
         </ul>
       </section>
       <!--Fourth section - Our Team-->
-      <section>
-        <h2>Nasz Zespół</h2>
-        <ul>
+      <section class="fourth-section">
+        <h2 class="sub-title">Nasz Zespół</h2>
+        <ul class="employees">
           <li>
             <img src="images/webstudio/emploee1.jpg" alt="employee 1" width="270" height="260" />
             <h3>John Doe</h3>
@@ -128,20 +128,24 @@
         </ul>
       </section>
     </main>
-    <footer>
-      <a href="#"> <span class="accent">Web</span>Studio </a>
-      <address>
+    <footer class="link footer-container">
+      <a class="logo logo-bottom" href="#"><span class="logo-accent">Web</span>Studio</a>
+      <address class="address-data">
         <ul>
           <li>
-            <a href="https://goo.gl/maps/wp7BMmqfB1jZp6Ye8" target="_blank">
+            <a
+              class="address-data-place"
+              href="https://goo.gl/maps/wp7BMmqfB1jZp6Ye8"
+              target="_blank"
+            >
               m. Warszawa, Aleje Jerozolimskie 21
             </a>
           </li>
           <li>
-            <a href="mailto:info@example.com">info@example.com</a>
+            <a class="address-data-contact" href="mailto:info@example.com">info@example.com</a>
           </li>
           <li>
-            <a href="tel:+48111111111">+48 111 111 111</a>
+            <a class="address-data-contact" href="tel:+48111111111">+48 111 111 111</a>
           </li>
         </ul>
       </address>
