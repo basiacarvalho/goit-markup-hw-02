@@ -100,7 +100,7 @@ body {
   color: var(--header-color);
 }
 
-.strengths li p {
+.second-section__features li p {
   line-height: 1.71;
 }
 
