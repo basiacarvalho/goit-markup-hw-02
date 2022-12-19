@@ -71,7 +71,7 @@ body {
   background-color: var(--background-color-dark);
 }
 
-.main-title {
+.first-section__title {
   color: #fff;
   font-weight: 900;
   font-size: 44px;
@@ -81,7 +81,7 @@ body {
   text-transform: uppercase;
 }
 
-.order-service {
+.first-section__button {
   color: #fff;
   font-size: 16px;
   font-weight: 700;
