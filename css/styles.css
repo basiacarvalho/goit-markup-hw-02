@@ -38,7 +38,7 @@ body {
   color: var(--active-color);
 }
 
-.sub-title {
+.section__sub-title {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -67,11 +67,11 @@ body {
 
 /*First section of the main page*/
 
-.first-section {
+.title-section {
   background-color: var(--background-color-dark);
 }
 
-.first-section__title {
+.title-section__title {
   color: #fff;
   font-weight: 900;
   font-size: 44px;
@@ -81,7 +81,7 @@ body {
   text-transform: uppercase;
 }
 
-.first-section__button {
+.title-section__button {
   color: #fff;
   font-size: 16px;
   font-weight: 700;
@@ -94,13 +94,13 @@ body {
 
 /*Second section of the main page - LOREM IPSUM*/
 
-.strengths li h3 {
+.section__features li h3 {
   line-height: 1.14;
 
   color: var(--header-color);
 }
 
-.second-section__features li p {
+.section__features li p {
   line-height: 1.71;
 }
 
