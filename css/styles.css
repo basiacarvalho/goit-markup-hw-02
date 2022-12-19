@@ -38,7 +38,7 @@ body {
   color: var(--active-color);
 }
 
-.section__sub-title {
+.sub-title {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -108,7 +108,7 @@ body {
 
 /*Fourth section of the main page - Our Team*/
 
-.fourth-section {
+.team-section {
   background-color: var(--background-color-light);
 }
 
@@ -127,24 +127,24 @@ body {
 }
 /*Footer*/
 
-.footer-container {
+.footer {
   background-color: var(--background-color-dark);
 }
 
-.logo-bottom {
+.footer__logo {
   color: var(--logo-bottom-color);
 }
 
-.address-data {
+.address-container {
   line-height: 1.71;
   font-style: normal;
 }
 
-.address-data-place {
+.address-item__place {
   color: #fff;
 }
 
-.address-data-contact {
+.address-item__contact {
   color: rgba(255, 255, 255, 0.6);
 }
 
