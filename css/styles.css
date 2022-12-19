@@ -61,7 +61,7 @@ body {
   color: var(--header-color);
 }
 
-.contact-link a {
+.header__contact a {
   color: var(--text-color);
 }
 
