@@ -16,62 +16,58 @@ body {
 }
 
 /* styles for all pages*/
-
-.link a {
+.link {
   text-decoration: none;
 }
 
-.link a:hover,
-.link a:focus {
+.link:hover,
+.link:focus {
   color: var(--active-color);
 }
 
 .logo {
   font-family: 'Raleway';
   font-size: 26px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.19;
 }
 
-.logo-accent {
+.logo__accent {
   color: var(--active-color);
 }
 
-.sub-title {
+.section__header {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-
   color: var(--header-color);
 }
 
 /* Header */
-.header__logo {
+.logo-header {
   color: var(--logo-top-color);
 }
 
-.header__menu li a {
+.header__menu {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
-.header__nav a {
+.header__nav-link {
   color: var(--header-color);
 }
 
-.header__contact a {
+.header__contact-link {
   color: var(--text-color);
 }
 
 /*First section of the main page*/
-
-.title-section {
+.banner {
   background-color: var(--background-color-dark);
 }
 
-.title-section__title {
+.banner__title {
   color: #fff;
   font-weight: 900;
   font-size: 44px;
@@ -81,38 +77,34 @@ body {
   text-transform: uppercase;
 }
 
-.title-section__button {
+.banner__button {
   color: #fff;
   font-size: 16px;
   font-weight: 700;
   letter-spacing: 0.06em;
   line-height: 1.87;
   text-align: center;
-
   background-color: var(--active-color);
 }
 
 /*Second section of the main page - LOREM IPSUM*/
-
-.section__features li h3 {
+.feature__title {
   line-height: 1.14;
-
   color: var(--header-color);
 }
 
-.section__features li p {
+.feature__description {
   line-height: 1.71;
 }
 
 /*Third section of the main page - What do we work with*/
 
 /*Fourth section of the main page - Our Team*/
-
-.team-section {
+.section__team {
   background-color: var(--background-color-light);
 }
 
-.employees h3 {
+.employee__title {
   color: var(--header-color);
   font-size: 16px;
   font-weight: 500;
@@ -120,37 +112,36 @@ body {
   text-align: center;
 }
 
-.employees p {
+.employee__subtitle {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
 }
-/*Footer*/
 
+/*Footer*/
 .footer {
   background-color: var(--background-color-dark);
 }
 
-.footer__logo {
+.logo-footer {
   color: var(--logo-bottom-color);
 }
 
-.address-container {
+.contacts {
   line-height: 1.71;
   font-style: normal;
 }
 
-.address-item__place {
+.contacts__contact-place {
   color: #fff;
 }
 
-.address-item__contact {
+.contacts__contact-item {
   color: rgba(255, 255, 255, 0.6);
 }
 
 /* Portfolio page */
-
-.filters button {
+.filter__button {
   color: var(--header-color);
   cursor: pointer;
   font-family: 'Roboto', sans-serif;
@@ -159,7 +150,6 @@ body {
   letter-spacing: 0.03em;
   line-height: 1.63;
   text-align: center;
-
   background-color: var(--background-color-light);
   border-color: var(--background-color-light);
   border-radius: 4px;
@@ -167,20 +157,20 @@ body {
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.filters button:hover,
-.filters button:focus {
+.filter__button:hover,
+.filter__button:focus {
   background-color: var(--active-color);
   color: #fff;
 }
 
-.project-icons h3 {
+.project__title {
   color: var(--header-color);
   font-weight: 700;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 
-.project-icons p {
+.project__subtitle {
   font-size: 16px;
   line-height: 1.88;
 }

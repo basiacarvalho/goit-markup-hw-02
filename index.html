@@ -14,33 +14,35 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <header class="link header">
+    <header class="header">
       <nav class="header-container">
-        <a class="logo header__logo" href="./index.html"
-          ><span class="logo-accent">Web</span>Studio</a
+        <a class="link logo logo-header" href="./index.html"
+          ><span class="logo__accent">Web</span>Studio</a
         >
         <ul class="header__menu header__nav">
-          <li class="header__nav-item"><a class="header__nav-link" href="#">Agencja</a></li>
+          <li class="header__nav-item"><a class="link header__nav-link" href="#">Agencja</a></li>
           <li class="header__nav-item">
-            <a class="header__nav-link" href="./portfolio.html">Portfolio</a>
+            <a class="link header__nav-link" href="./portfolio.html">Portfolio</a>
           </li>
-          <li class="header__nav-item"><a class="header__nav-link" href="#">Kontakt</a></li>
+          <li class="header__nav-item"><a class="link header__nav-link" href="#">Kontakt</a></li>
         </ul>
       </nav>
       <ul class="header__menu header__contact">
         <li class="header__contact-item">
-          <a class="header__contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a class="link header__contact-link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
         </li>
         <li class="header__contact-item">
-          <a class="header__contact-link" href="tel:+48111111111">+48 111 111 111</a>
+          <a class="link header__contact-link" href="tel:+48111111111">+48 111 111 111</a>
         </li>
       </ul>
     </header>
     <main>
       <!--First section - Efektywne Rozwiązania-->
-      <section class="title-section">
-        <h1 class="title-section__title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-        <button class="link title-section__button" type="button">Zamów usługę</button>
+      <section class="banner">
+        <h1 class="banner__title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+        <button class="link banner__button" type="button">Zamów usługę</button>
       </section>
       <!--Second section - LOREM IPSUM-->
       <section class="section">
@@ -77,7 +79,7 @@
       </section>
       <!--Third section - What do we work with-->
       <section class="section">
-        <h2 class="sub-title">Czym się zajmujemy</h2>
+        <h2 class="section__header">Czym się zajmujemy</h2>
         <ul class="boxes">
           <li class="box">
             <img
@@ -109,8 +111,8 @@
         </ul>
       </section>
       <!--Fourth section - Our Team-->
-      <section class="team-section">
-        <h2 class="sub-title">Nasz Zespół</h2>
+      <section class="section section__team">
+        <h2 class="section__header">Nasz Zespół</h2>
         <ul class="employees">
           <li class="employees__employee">
             <img
@@ -159,26 +161,28 @@
         </ul>
       </section>
     </main>
-    <footer class="link footer">
-      <a class="logo footer__logo" href="./index.html"
-        ><span class="logo-accent">Web</span>Studio</a
+    <footer class="footer">
+      <a class="link logo logo-footer" href="./index.html"
+        ><span class="logo__accent">Web</span>Studio</a
       >
-      <address class="address-container">
-        <ul class="address-items">
-          <li class="address-item">
+      <address class="contacts">
+        <ul class="contacts__contact-list">
+          <li class="contacts__contact">
             <a
-              class="address-item__place"
+              class="link contacts__contact-place"
               href="https://goo.gl/maps/wp7BMmqfB1jZp6Ye8"
               target="_blank"
             >
               m. Warszawa, Aleje Jerozolimskie 21
             </a>
           </li>
-          <li class="address-item">
-            <a class="address-item__contact" href="mailto:info@example.com">info@example.com</a>
+          <li class="contacts__contact">
+            <a class="link contacts__contact-item" href="mailto:info@example.com"
+              >info@example.com</a
+            >
           </li>
           <li>
-            <a class="address-item__contact" href="tel:+48111111111">+48 111 111 111</a>
+            <a class="link contacts__contact-item" href="tel:+48111111111">+48 111 111 111</a>
           </li>
         </ul>
       </address>
